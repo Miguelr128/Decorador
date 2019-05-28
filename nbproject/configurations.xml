@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configurationDescriptor version="100">
+  <logicalFolder name="root" displayName="root" projectFiles="true" kind="ROOT">
+    <logicalFolder name="HeaderFiles"
+                   displayName="Header Files"
+                   projectFiles="true">
+      <itemPath>GPS.h</itemPath>
+      <itemPath>alquilable.h</itemPath>
+      <itemPath>autoSUV.h</itemPath>
+      <itemPath>autoSedan.h</itemPath>
+      <itemPath>decoradorAlquilable.h</itemPath>
+    </logicalFolder>
+    <logicalFolder name="ResourceFiles"
+                   displayName="Resource Files"
+                   projectFiles="true">
+    </logicalFolder>
+    <logicalFolder name="SourceFiles"
+                   displayName="Source Files"
+                   projectFiles="true">
+      <itemPath>GPS.cpp</itemPath>
+      <itemPath>autoSUV.cpp</itemPath>
+      <itemPath>autoSedan.cpp</itemPath>
+      <itemPath>decoradorAlquilable.cpp</itemPath>
+      <itemPath>main.cpp</itemPath>
+    </logicalFolder>
+    <logicalFolder name="TestFiles"
+                   displayName="Test Files"
+                   projectFiles="false"
+                   kind="TEST_LOGICAL_FOLDER">
+    </logicalFolder>
+    <logicalFolder name="ExternalFiles"
+                   displayName="Important Files"
+                   projectFiles="false"
+                   kind="IMPORTANT_FILES_FOLDER">
+      <itemPath>Makefile</itemPath>
+    </logicalFolder>
+  </logicalFolder>
+  <projectmakefile>Makefile</projectmakefile>
+  <confs>
+    <conf name="Debug" type="1">
+      <toolsSet>
+        <compilerSet>default</compilerSet>
+        <dependencyChecking>true</dependencyChecking>
+        <rebuildPropChanged>false</rebuildPropChanged>
+      </toolsSet>
+      <compileType>
+      </compileType>
+      <item path="GPS.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="GPS.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="alquilable.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="autoSUV.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="autoSUV.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="autoSedan.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="autoSedan.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="decoradorAlquilable.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="decoradorAlquilable.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="main.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+    </conf>
+    <conf name="Release" type="1">
+      <toolsSet>
+        <compilerSet>default</compilerSet>
+        <dependencyChecking>true</dependencyChecking>
+        <rebuildPropChanged>false</rebuildPropChanged>
+      </toolsSet>
+      <compileType>
+        <cTool>
+          <developmentMode>5</developmentMode>
+        </cTool>
+        <ccTool>
+          <developmentMode>5</developmentMode>
+        </ccTool>
+        <fortranCompilerTool>
+          <developmentMode>5</developmentMode>
+        </fortranCompilerTool>
+        <asmTool>
+          <developmentMode>5</developmentMode>
+        </asmTool>
+      </compileType>
+      <item path="GPS.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="GPS.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="alquilable.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="autoSUV.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="autoSUV.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="autoSedan.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="autoSedan.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="decoradorAlquilable.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="decoradorAlquilable.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="main.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+    </conf>
+  </confs>
+</configurationDescriptor>
